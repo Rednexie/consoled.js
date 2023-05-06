@@ -1,4 +1,6 @@
-consoled.js is a module for coloring the console output, works on Nodejs, made by rednexie
+consoled.js is a module for coloring the console output, works in Nodejs, made by rednexie
+consoled.js doesn't require a-ANY dependencies.
+Tested on already on Linux and Windows 
 
 If you want to take a look at the methods/colors consoled.js supports, view 'example.png'
 Usage:
