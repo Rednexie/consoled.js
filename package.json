@@ -1,6 +1,6 @@
 {
   "name": "consoled.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "consoled.js is a module for coloring the console output without any dependencies, works in Nodejs, made by rednexie",
   "main": "consoled.js",
   "scripts": {
