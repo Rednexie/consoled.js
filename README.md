@@ -26,6 +26,12 @@ Methods:
 
 Usage & Examples:
 
+Firstly, you have to install consoled.js node module to your system. Use the command:
+
+    npm i consoled.js
+
+After the installation is done, you can import and use it.
+
 Using es6 import:
 
     import consoled from "consoled.js"

@@ -1,6 +1,6 @@
 {
   "name": "consoled.js",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "consoled.js is a module for coloring the console output without any dependencies, works in Nodejs, made by rednexie",
   "main": "index.js",
   "scripts": {
@@ -19,12 +19,13 @@
     "nodejs",
     "background",
     "color",
-    "color"
+    "colored",
+    "colored text"
   ],
   "author": "Rednexie",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Rednexie/consoled.js/issues"
   },
-  "homepage": "https://github.com/Rednexie/consoled.js#readme"
+  "homepage": "https://rednexie.github.io/consoled.js"
 }
