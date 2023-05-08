@@ -8,8 +8,7 @@ In addition to basic formatting, consoled.js also supports underlined, faded, an
 
 If you want to take a look at the methods/colors consoled.js supports, view 'example.png' 
 
-Usage: 
-    const consoled = require("consoled.js")
+Methods:
     
     consoled.<color>(text): Prints the colored text to the console. color can be one of these: white, black, gray, red, yellow, green, cyan, blue or magenta. 
     
@@ -24,6 +23,41 @@ Usage:
     consoled.usfade.<color>(text): Prints the colored, underscored and faded text to the console. color can be one of these: white, black, gray, red, yellow, green, cyan, blue or magenta.
 
     consoled.brightus.<color>(text): Prints the colored, underscored and bright text to the console. color can be one of these: white, black, gray, red, yellow, green, cyan, blue or magenta.
+
+Usage & Examples:
+
+Using es6 import:
+
+    import consoled from "consoled.js"
+
+    consoled.red("This is a normal red text!");
+
+    consoled.bgred("This is a white or black text, with a red background!");
+
+    consoled.bright.red("This is a bright red text!");
+
+    consoled.brightus.red("This is an underscored, bright red text!");
+
+    consoled.fade.red("This is a red text, but it is faded.");
+
+    consoled.usfade.bgred("This is an underscored and faded text with a red background!");
+
+Using require(Recommended)
+
+    const consoled = require("consoled.js");
+
+    consoled.green("This is a normal green text!");
+
+    consoled.bggreen("This is a white or black text, with a green background!")
+
+    consoled.bright.green("This is a bright green text!")
+
+    consoled.brightus.green("This is an underscored, bright green text!")
+
+    consoled.fade.green("This is a green text, but it is faded.")
+
+    consoled.usfade.bggreen("This is a underscored and faded text with a green background!")
+
 
 It is important to note that there may be some issues with white colors in Windows command prompt and with yellow colors on Windows Powershell.
 
