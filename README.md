@@ -68,3 +68,5 @@ Using require(Recommended)
 It is important to note that there may be some issues with white colors in Windows command prompt and with yellow colors on Windows Powershell.
 
 Overall, consoled.js is an excellent tool for developers who want to add some visual flair to their console output. Its flexibility and ease of use makes it a great choice for beginners and experienced developers alike.
+
+more info & usage: [https://rednexie.github.io/consoled](https://rednexie.github.io/consoled.js/)
